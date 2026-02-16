@@ -176,7 +176,7 @@ if st.session_state.step == 'start':
     st.markdown("<h1>For My Jaanu 👑</h1>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.image("https://cdn-icons-png.flaticon.com/512/3514/3514510.png", width=180) 
+        st.image("p5.png", width=180) 
         st.markdown("<p class='body-text' style='font-style: italic; opacity: 0.8;'>\"In your quiet strength, I found my loudest joy.\"</p>", unsafe_allow_html=True)
         if st.button("Enter Her World"):
             st.session_state.music_playing = True 
@@ -279,4 +279,3 @@ with st.sidebar:
     st.session_state.music_playing = st.checkbox("Music Enabled", value=st.session_state.music_playing)
     st.write("---")
     st.caption("Ethereal Edition 1.0")
-
